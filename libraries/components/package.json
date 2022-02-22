@@ -38,7 +38,7 @@
     "@mui/material": "~5.2.6",
     "@mui/system": "~5.2.6",
     "@types/react": "17.0.8",
-    "microbundle": "~0.13.2",
+    "microbundle": "~0.14.2",
     "typescript": "~4.2.4"
   },
   "dependencies": {
