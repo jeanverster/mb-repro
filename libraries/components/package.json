@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "microbundle build -f cjs,modern --jsx React.createElement",
-    "build-tsc": "tsc"
+    "build-tsc": "rm -rf ./lib && tsc"
   },
   "size-limit": [
     {
