@@ -15,14 +15,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "start": "microbundle watch -f cjs,modern --jsx React.createElement",
     "build": "microbundle build -f cjs,modern --jsx React.createElement",
-    "build-tsc": "tsc",
-    "lint": "secfi lint",
-    "test": "secfi test",
-    "test:update": "secfi test --updateSnapshot",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
+    "build-tsc": "tsc"
   },
   "size-limit": [
     {
